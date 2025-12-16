@@ -2,6 +2,12 @@
 
 > Site institucional responsivo para uma cafeteria artesanal, desenvolvido como projeto acadêmico da disciplina de **Padrões Web** do curso de Análise e Desenvolvimento de Sistemas da **UniFECAF**.
 
+## 🌐 Acesse o Site
+
+**🔗 [https://projeto-unifecaf-rocketseat-dezembro-2025.vercel.app](https://projeto-unifecaf-rocketseat-dezembro-2025.vercel.app)**
+
+---
+
 ![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)

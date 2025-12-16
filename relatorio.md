@@ -8,6 +8,12 @@
 
 ---
 
+### 🔗 Link do Site Publicado
+
+**Acesse:** [https://projeto-unifecaf-rocketseat-dezembro-2025.vercel.app](https://projeto-unifecaf-rocketseat-dezembro-2025.vercel.app)
+
+---
+
 ## 1. Explicação do Projeto
 
 ### 1.1 Finalidade
