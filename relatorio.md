@@ -58,7 +58,7 @@ O site foi estruturado como uma **Single Page Application (SPA)** com as seguint
 
 ### 2.1 Escolha Estratégica: Código Puro como Base dos Padrões Web
 
-A escolha por desenvolver o projeto utilizando **código puro** (HTML, CSS, JavaScript) foi uma decisão **deliberada e pedagógica**, alinhada com o objetivo central da disciplina de Padrões Web: **compreender profundamente os fundamentos que sustentam TODAS as ferramentas visuais**.
+Optei por desenvolver o projeto utilizando **código puro** (HTML, CSS, JavaScript) como uma decisão **deliberada e pedagógica**, alinhada com o objetivo central da disciplina de Padrões Web: **compreender profundamente os fundamentos que sustentam TODAS as ferramentas visuais**.
 
 Ferramentas no-code como Webflow, Softr e Glide são construídas sobre HTML, CSS e JavaScript. Ao dominar esses padrões diretamente, adquiri a capacidade de:
 
@@ -80,7 +80,7 @@ Ferramentas no-code como Webflow, Softr e Glide são construídas sobre HTML, CS
 
 ### 2.3 Por que esta abordagem atende ao desafio?
 
-O desafio proposto tem como objetivo que o estudante entenda a **aplicabilidade dos padrões web na realidade do mercado**. Ao desenvolver com código puro:
+O desafio proposto tem como objetivo entender a **aplicabilidade dos padrões web na realidade do mercado**. Ao desenvolver com código puro:
 
 1. **Demonstrei domínio dos padrões fundamentais** — HTML5 semântico, CSS3 moderno (Custom Properties, Grid, Flexbox), JavaScript ES6+ (Fetch API, IntersectionObserver, async/await)
 
@@ -132,7 +132,7 @@ Utilizei as tags semânticas do HTML5 para estruturar o conteúdo de forma signi
 
 ### 3.2 CSS3 Moderno
 
-O CSS foi desenvolvido seguindo práticas modernas:
+Desenvolvi o CSS seguindo práticas modernas:
 
 **Custom Properties (Variáveis CSS):**
 ```css
@@ -160,7 +160,7 @@ Isso permite alterar toda a identidade visual mudando poucos valores.
 
 ### 3.3 JavaScript ES6+
 
-O JavaScript foi escrito com funcionalidades modernas:
+Escrevi o JavaScript utilizando funcionalidades modernas:
 
 - **Arrow Functions** para código mais conciso
 - **Template Literals** para strings dinâmicas
@@ -254,7 +254,7 @@ const observer = new IntersectionObserver((entries) => {
 
 ### 5.1 Cuidados com Responsividade
 
-O design foi desenvolvido com abordagem **Mobile First**, garantindo:
+Desenvolvi o design com abordagem **Mobile First**, garantindo:
 
 | Recurso | Implementação |
 |---------|--------------|
@@ -309,7 +309,7 @@ Segui as diretrizes WCAG 2.1 implementando:
 
 ### 6.1 Formspree
 
-O formulário de contato está integrado com o serviço **Formspree**, que permite receber mensagens via e-mail sem necessidade de backend próprio.
+Integrei o formulário de contato com o serviço **Formspree**, que permite receber mensagens via e-mail sem necessidade de backend próprio.
 
 **Funcionamento:**
 1. Formulário HTML aponta para endpoint do Formspree
@@ -366,11 +366,11 @@ Serviços como Formspree permitem adicionar funcionalidades backend sem escrever
 
 ## 8. Conclusão
 
-O projeto Café Aurora demonstra que é possível criar aplicações web profissionais e acessíveis utilizando apenas os padrões fundamentais da web (HTML, CSS, JavaScript), sem depender de frameworks pesados ou plataformas pagas.
+Com o projeto Café Aurora, demonstrei que é possível criar aplicações web profissionais e acessíveis utilizando apenas os padrões fundamentais da web (HTML, CSS, JavaScript), sem depender de frameworks pesados ou plataformas pagas.
 
-O conhecimento adquirido neste projeto é transferível para qualquer ferramenta no-code/low-code futura, pois entender os padrões subjacentes permite customizar, debugar e otimizar qualquer solução web.
+O conhecimento que adquiri neste projeto é transferível para qualquer ferramenta no-code/low-code futura, pois entender os padrões subjacentes me permite customizar, debugar e otimizar qualquer solução web.
 
-O site está funcional, responsivo, acessível e pronto para publicação, atendendo a todos os requisitos propostos pelo desafio.
+Entreguei um site funcional, responsivo, acessível e pronto para publicação, atendendo a todos os requisitos propostos pelo desafio.
 
 ---
 
