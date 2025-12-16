@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Café Aurora - Cafeteria artesanal em São Paulo. Grãos selecionados, ambiente acolhedor e o melhor café da região.">
+    <meta name="keywords" content="café, cafeteria, artesanal, São Paulo, coffee shop">
+    <meta name="author" content="Gabriel Falcão">
+
+    <!-- Open Graph para redes sociais -->
+    <meta property="og:title" content="Café Aurora - Cafeteria Artesanal">
+    <meta property="og:description" content="O melhor café artesanal da região. Venha nos visitar!">
+    <meta property="og:type" content="website">
+
+    <title>Café Aurora - Cafeteria Artesanal</title>
+
+    <!-- Google Fonts - DM Serif Display + Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Skip Link para Acessibilidade -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <!-- Header / Navegação -->
+    <header class="header" role="banner">
+        <div class="container">
+            <a href="#" class="logo" aria-label="Café Aurora - Página inicial">
+                <svg class="logo-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M17 8h1a4 4 0 0 1 0 8h-1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 1v3M10 1v3M14 1v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span class="logo-text">Café Aurora</span>
+            </a>
+
+            <button class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger"></span>
+            </button>
+
+            <nav id="main-nav" class="main-nav" role="navigation" aria-label="Navegação principal">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link active">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#cardapio" class="nav-link">Cardápio</a></li>
+                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 id="hero-title" class="hero-title">
+                    Onde cada xícara<br>
+                    <span class="highlight">conta uma história</span>
+                </h1>
+                <p class="hero-subtitle">Café artesanal torrado com amor, servido em um ambiente que você vai querer chamar de seu.</p>
+                <div class="hero-buttons">
+                    <a href="#cardapio" class="btn btn-primary">Ver Cardápio</a>
+                    <a href="#contato" class="btn btn-secondary">Fale Conosco</a>
+                </div>
+            </div>
+            <div class="scroll-indicator" aria-hidden="true">
+                <span class="scroll-arrow"></span>
+            </div>
+        </section>
+
+        <!-- Sobre Section -->
+        <section id="sobre" class="sobre section" aria-labelledby="sobre-title">
+            <div class="container">
+                <div class="sobre-grid">
+                    <div class="sobre-content">
+                        <span class="section-tag">Nossa História</span>
+                        <h2 id="sobre-title" class="section-title">Mais que café,<br>uma experiência</h2>
+                        <p class="sobre-text">
+                            Fundado em 2023, o Café Aurora nasceu do sonho de criar um espaço onde o café fosse mais do que uma bebida — fosse um momento de pausa, conexão e prazer.
+                        </p>
+                        <p class="sobre-text">
+                            Trabalhamos diretamente com pequenos produtores brasileiros, garantindo grãos de origem única e torra artesanal feita semanalmente em nosso próprio torrador.
+                        </p>
+                        <ul class="sobre-features" role="list">
+                            <li>
+                                <svg class="feature-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M12 22c4-4 8-7.5 8-12a8 8 0 1 0-16 0c0 4.5 4 8 8 12Z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M12 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                                <span>Grãos 100% brasileiros</span>
+                            </li>
+                            <li>
+                                <svg class="feature-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M7 19H5a2 2 0 0 1-2-2v-2a2 2 0 0 1 2-2h2M17 19h2a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2h-2M7 5H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2M17 5h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    <path d="M12 22V2M7 12h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                                <span>Embalagens sustentáveis</span>
+                            </li>
+                            <li>
+                                <svg class="feature-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7 7-7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                <span>Feito com amor</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sobre-image">
+                        <div class="image-wrapper">
+                            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=700&fit=crop"
+                                 alt="Interior aconchegante do Café Aurora com mesas de madeira e iluminação quente"
+                                 loading="lazy"
+                                 width="600"
+                                 height="700">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cardápio Section -->
+        <section id="cardapio" class="cardapio section" aria-labelledby="cardapio-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Nosso Menu</span>
+                    <h2 id="cardapio-title" class="section-title">Cardápio</h2>
+                    <p class="section-description">Selecionamos os melhores grãos para criar bebidas que aquecem a alma</p>
+                </div>
+
+                <!-- Filtros do Cardápio -->
+                <div class="cardapio-filters" role="tablist" aria-label="Filtrar cardápio por categoria">
+                    <button class="filter-btn active" role="tab" aria-selected="true" data-filter="todos">Todos</button>
+                    <button class="filter-btn" role="tab" aria-selected="false" data-filter="cafes">Cafés</button>
+                    <button class="filter-btn" role="tab" aria-selected="false" data-filter="bebidas">Bebidas</button>
+                    <button class="filter-btn" role="tab" aria-selected="false" data-filter="comidas">Comidas</button>
+                </div>
+
+                <div class="cardapio-grid" role="list">
+                    <!-- Cafés -->
+                    <article class="cardapio-item" data-category="cafes" role="listitem">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=300&h=200&fit=crop"
+                                 alt="Xícara de espresso com crema dourada"
+                                 loading="lazy"
+                                 width="300"
+                                 height="200">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Espresso</h3>
+                            <p class="item-description">Shot concentrado com crema aveludada. Intenso e aromático.</p>
+                            <span class="item-price">R$ 8,00</span>
+                        </div>
+                    </article>
+
+                    <article class="cardapio-item" data-category="cafes" role="listitem">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=300&h=200&fit=crop"
+                                 alt="Cappuccino com arte em formato de coração na espuma"
+                                 loading="lazy"
+                                 width="300"
+                                 height="200">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Cappuccino</h3>
+                            <p class="item-description">Espresso, leite vaporizado e espuma cremosa. Clássico italiano.</p>
+                            <span class="item-price">R$ 14,00</span>
+                        </div>
+                    </article>
+
+                    <article class="cardapio-item" data-category="cafes" role="listitem">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=300&h=200&fit=crop"
+                                 alt="Latte gelado em copo alto com camadas de café e leite"
+                                 loading="lazy"
+                                 width="300"
+                                 height="200">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Latte</h3>
+                            <p class="item-description">Espresso suave com muito leite vaporizado. Perfeito para começar o dia.</p>
+                            <span class="item-price">R$ 12,00</span>
+                        </div>
+                    </article>
+
+                    <article class="cardapio-item" data-category="cafes" role="listitem">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=300&h=200&fit=crop"
+                                 alt="Mocha com chantilly e calda de chocolate"
+                                 loading="lazy"
+                                 width="300"
+                                 height="200">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Mocha</h3>
+                            <p class="item-description">Espresso com chocolate belga e leite. Para os amantes de doce.</p>
+                            <span class="item-price">R$ 16,00</span>
+                        </div>
+                    </article>
+
+                    <!-- Bebidas -->
+                    <article class="cardapio-item" data-category="bebidas" role="listitem">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=300&h=200&fit=crop"
+                                 alt="Chá verde em xícara de cerâmica"
+                                 loading="lazy"
+                                 width="300"
+                                 height="200">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Chá Artesanal</h3>
+                            <p class="item-description">Seleção de chás premium. Verde, camomila, frutas vermelhas e mais.</p>
+                            <span class="item-price">R$ 10,00</span>
+                        </div>
+                    </article>
+
+                    <article class="cardapio-item" data-category="bebidas" role="listitem">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?w=300&h=200&fit=crop"
+                                 alt="Suco de laranja natural em copo"
+                                 loading="lazy"
+                                 width="300"
+                                 height="200">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Suco Natural</h3>
+                            <p class="item-description">Frutas frescas espremidas na hora. Laranja, limão ou misto.</p>
+                            <span class="item-price">R$ 12,00</span>
+                        </div>
+                    </article>
+
+                    <!-- Comidas -->
+                    <article class="cardapio-item" data-category="comidas" role="listitem">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=300&h=200&fit=crop"
+                                 alt="Croissant dourado e crocante"
+                                 loading="lazy"
+                                 width="300"
+                                 height="200">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Croissant</h3>
+                            <p class="item-description">Massa folhada francesa, assada na hora. Opções doce e salgado.</p>
+                            <span class="item-price">R$ 12,00</span>
+                        </div>
+                    </article>
+
+                    <article class="cardapio-item" data-category="comidas" role="listitem">
+                        <div class="item-image">
+                            <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=300&h=200&fit=crop"
+                                 alt="Fatia de bolo de cenoura com cobertura de chocolate"
+                                 loading="lazy"
+                                 width="300"
+                                 height="200">
+                        </div>
+                        <div class="item-content">
+                            <h3 class="item-title">Bolo do Dia</h3>
+                            <p class="item-description">Receita caseira que muda diariamente. Pergunte ao atendente!</p>
+                            <span class="item-price">R$ 14,00</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Galeria Section -->
+        <section id="galeria" class="galeria section" aria-labelledby="galeria-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Nosso Espaço</span>
+                    <h2 id="galeria-title" class="section-title">Galeria</h2>
+                    <p class="section-description">Conheça um pouco do nosso cantinho especial</p>
+                </div>
+
+                <div class="galeria-grid">
+                    <figure class="galeria-item large">
+                        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&h=600&fit=crop"
+                             alt="Vista geral do Café Aurora com balcão de atendimento e mesas"
+                             loading="lazy"
+                             width="800"
+                             height="600">
+                    </figure>
+                    <figure class="galeria-item">
+                        <img src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=400&h=300&fit=crop"
+                             alt="Barista preparando café no balcão"
+                             loading="lazy"
+                             width="400"
+                             height="300">
+                    </figure>
+                    <figure class="galeria-item">
+                        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=400&h=300&fit=crop"
+                             alt="Grãos de café sendo torrados artesanalmente"
+                             loading="lazy"
+                             width="400"
+                             height="300">
+                    </figure>
+                    <figure class="galeria-item">
+                        <img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=400&h=300&fit=crop"
+                             alt="Mesa com xícara de café e notebook em ambiente acolhedor"
+                             loading="lazy"
+                             width="400"
+                             height="300">
+                    </figure>
+                    <figure class="galeria-item">
+                        <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=400&h=300&fit=crop"
+                             alt="Detalhe da decoração com plantas e iluminação"
+                             loading="lazy"
+                             width="400"
+                             height="300">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Horários e Localização -->
+        <section class="info section" aria-labelledby="info-title">
+            <div class="container">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <svg class="info-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <h3 id="info-title">Horário de Funcionamento</h3>
+                        <ul class="horarios-list">
+                            <li>
+                                <span class="dia">Segunda a Sexta</span>
+                                <span class="hora">7h às 20h</span>
+                            </li>
+                            <li>
+                                <span class="dia">Sábado</span>
+                                <span class="hora">8h às 18h</span>
+                            </li>
+                            <li>
+                                <span class="dia">Domingo</span>
+                                <span class="hora">9h às 15h</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <svg class="info-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0Z" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                        <h3>Localização</h3>
+                        <address class="endereco">
+                            Rua das Flores, 123<br>
+                            Vila Mariana - São Paulo/SP<br>
+                            CEP: 04101-000
+                        </address>
+                        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                            Ver no Mapa
+                        </a>
+                    </div>
+
+                    <div class="info-card">
+                        <svg class="info-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <h3>Redes Sociais</h3>
+                        <div class="social-links">
+                            <a href="#" aria-label="Instagram do Café Aurora" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="Facebook do Café Aurora" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                            </a>
+                            <a href="#" aria-label="WhatsApp do Café Aurora" class="social-link">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato" class="contato section" aria-labelledby="contato-title">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Fale Conosco</span>
+                    <h2 id="contato-title" class="section-title">Entre em Contato</h2>
+                    <p class="section-description">Tem alguma dúvida, sugestão ou quer fazer uma reserva? Envie sua mensagem!</p>
+                </div>
+
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/xpwzgkvd" method="POST" novalidate>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nome completo *</label>
+                            <input type="text" id="name" name="name" class="form-input" required
+                                   aria-required="true" aria-describedby="name-error"
+                                   placeholder="Seu nome">
+                            <span id="name-error" class="error-message" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="form-label">E-mail *</label>
+                            <input type="email" id="email" name="email" class="form-input" required
+                                   aria-required="true" aria-describedby="email-error"
+                                   placeholder="seu@email.com">
+                            <span id="email-error" class="error-message" role="alert"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Telefone</label>
+                            <input type="tel" id="phone" name="phone" class="form-input"
+                                   placeholder="(11) 99999-9999"
+                                   aria-describedby="phone-hint">
+                            <span id="phone-hint" class="form-hint">Opcional</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Assunto *</label>
+                            <select id="subject" name="subject" class="form-input form-select" required
+                                    aria-required="true" aria-describedby="subject-error">
+                                <option value="">Selecione um assunto</option>
+                                <option value="reserva">Reserva de mesa</option>
+                                <option value="evento">Evento corporativo</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="parceria">Parceria</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                            <span id="subject-error" class="error-message" role="alert"></span>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="message" class="form-label">Mensagem *</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" required
+                                      aria-required="true" aria-describedby="message-error"
+                                      placeholder="Escreva sua mensagem aqui..." rows="5"></textarea>
+                            <span id="message-error" class="error-message" role="alert"></span>
+                        </div>
+                    </div>
+
+                    <div class="form-footer">
+                        <p class="form-privacy">
+                            Ao enviar, você concorda com nossa
+                            <a href="#" target="_blank">política de privacidade</a>.
+                        </p>
+                        <button type="submit" class="btn btn-primary btn-large" id="submit-btn">
+                            <span class="btn-text">Enviar Mensagem</span>
+                            <span class="btn-loading" aria-hidden="true">Enviando...</span>
+                        </button>
+                    </div>
+
+                    <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <svg class="logo-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                        <path d="M17 8h1a4 4 0 0 1 0 8h-1" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M6 1v3M10 1v3M14 1v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span class="logo-text">Café Aurora</span>
+                    <p class="footer-tagline">Onde cada xícara conta uma história</p>
+                </div>
+
+                <nav class="footer-nav" aria-label="Links do rodapé">
+                    <a href="#inicio">Início</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#cardapio">Cardápio</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Café Aurora. Todos os direitos reservados.</p>
+                <p class="footer-credit">
+                    Desenvolvido por <strong>Gabriel Falcão</strong> |
+                    Projeto acadêmico UniFECAF
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
